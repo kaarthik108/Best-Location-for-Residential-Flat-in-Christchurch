@@ -1,0 +1,465 @@
+<gmd:MD_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns="http://www.isotc211.org/2005/gmd">
+  <gmd:fileIdentifier>
+    <gco:CharacterString>8251fe47-f849-8178-687f-d082283780dd</gco:CharacterString>
+  </gmd:fileIdentifier>
+  <gmd:language>
+    <gco:CharacterString>eng</gco:CharacterString>
+  </gmd:language>
+  <gmd:characterSet>
+    <gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+  </gmd:characterSet>
+  <gmd:hierarchyLevel>
+    <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/GAScopeCodeList.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+  </gmd:hierarchyLevel>
+  <gmd:hierarchyLevelName>
+    <gco:CharacterString>dataset</gco:CharacterString>
+  </gmd:hierarchyLevelName>
+  <gmd:contact>
+    <gmd:CI_ResponsibleParty>
+      <gmd:individualName>
+        <gco:CharacterString>omit</gco:CharacterString>
+      </gmd:individualName>
+      <gmd:organisationName>
+        <gco:CharacterString>LINZ - Land Information New Zealand</gco:CharacterString>
+      </gmd:organisationName>
+      <gmd:positionName>
+        <gco:CharacterString/>
+      </gmd:positionName>
+      <gmd:contactInfo>
+        <gmd:CI_Contact>
+          <gmd:phone>
+            <gmd:CI_Telephone>
+              <gmd:voice>
+                <gco:CharacterString>04 4600110</gco:CharacterString>
+              </gmd:voice>
+            </gmd:CI_Telephone>
+          </gmd:phone>
+          <gmd:address>
+            <gmd:CI_Address>
+              <gmd:deliveryPoint>
+                <gco:CharacterString>155 The Terrace</gco:CharacterString>
+              </gmd:deliveryPoint>
+              <gmd:city>
+                <gco:CharacterString>Wellington</gco:CharacterString>
+              </gmd:city>
+              <gmd:postalCode>
+                <gco:CharacterString>6011</gco:CharacterString>
+              </gmd:postalCode>
+              <gmd:country>
+                <gco:CharacterString>New Zealand</gco:CharacterString>
+              </gmd:country>
+              <gmd:electronicMailAddress>
+                <gco:CharacterString>info@linz.govt.nz</gco:CharacterString>
+              </gmd:electronicMailAddress>
+            </gmd:CI_Address>
+          </gmd:address>
+        </gmd:CI_Contact>
+      </gmd:contactInfo>
+      <gmd:role>
+        <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</gmd:CI_RoleCode>
+      </gmd:role>
+    </gmd:CI_ResponsibleParty>
+  </gmd:contact>
+  <gmd:dateStamp>
+    <gco:Date>2015-12-10</gco:Date>
+  </gmd:dateStamp>
+  <gmd:metadataStandardName>
+    <gco:CharacterString>ANZLIC Metadata Profile: An Australian/New Zealand Profile of AS/NZS ISO 19115:2005, Geographic information - Metadata</gco:CharacterString>
+  </gmd:metadataStandardName>
+  <gmd:metadataStandardVersion>
+    <gco:CharacterString>1.1</gco:CharacterString>
+  </gmd:metadataStandardVersion>
+  <gmd:referenceSystemInfo>
+    <gmd:MD_ReferenceSystem>
+      <gmd:referenceSystemIdentifier>
+        <gmd:RS_Identifier>
+          <gmd:code>
+            <gco:CharacterString>4167</gco:CharacterString>
+          </gmd:code>
+        </gmd:RS_Identifier>
+      </gmd:referenceSystemIdentifier>
+    </gmd:MD_ReferenceSystem>
+  </gmd:referenceSystemInfo>
+  <gmd:identificationInfo>
+    <gmd:MD_DataIdentification>
+      <gmd:citation>
+        <gmd:CI_Citation>
+          <gmd:title>
+            <gco:CharacterString>NZ Road Centre Line (Electoral)</gco:CharacterString>
+          </gmd:title>
+          <gmd:date>
+            <gmd:CI_Date>
+              <gmd:date>
+                <gco:Date>2011-04</gco:Date>
+              </gmd:date>
+              <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation">creation</gmd:CI_DateTypeCode>
+              </gmd:dateType>
+            </gmd:CI_Date>
+          </gmd:date>
+        </gmd:CI_Citation>
+      </gmd:citation>
+      <gmd:abstract>
+        <gco:CharacterString>**This dataset has been replaced by the** [NZ Roads (Addressing)](https://data.linz.govt.nz/layer/2665) **and** [NZ Roads Subsections (Addressing)](https://data.linz.govt.nz/layer/3383) **datasets and will be deprecated on 31 May 2017.** It is currently being ported from the new database in an effort to minimise disruption for customers. See [NZ Roads Data Dictionary](https://data.linz.govt.nz/document/1628) for field mappings to the new dataset.
+
+This source Landonline data exists in order to provide linear geometries against which official road names and street addresses can be recorded. Its purpose is also to enable automated meshblock address reports (for electoral and statistical purposes) so as to identify the presence of a road name in meshblocks where street addresses do not exist.
+
+A road centreline in this layer will typically consist of several road centreline geometries from Landonline that have been associated to the same road name.
+In Landonline a road name is commonly assigned to multiple stretches of roading such as between intersections with other roads. A road name is also commonly duplicated across the country e.g. "Queen Street", "High street" etc.
+
+For this layer (as opposed to the Road Subsections Layer. Individual road sections have been aggregated to a single road centreline geometry for each locality. Thus, for example, State Highway 1 has individual sections for differing towns and whenever it crosses a Territorial Authority boundary.
+
+Because some roads have multiple names for part of their lengths, some road centreline geometries will duplicate parts of other roads even though there is in reality only one road formation.
+
+The road centrelines recorded in Landonline do not represent actual road formation, nor do they represent legal access. They must not be considered as topographic, cadastral, or legal.
+
+As a general rule those that are not within a Road Parcels Layer should be treated as being of highly variable accuracy. They do however meet the purposes for which they have been captured, and can provide a valuable resource for other purposes provided that the user(s) understand their origin and consequential limitations.
+
+Warning:
+The purpose of the location field is to enable differentiation between roads of the same name in the dataset. It should not be considered official nor part of a valid postal address. It can however be used as an indicative guide to location within a Territorial Authority, or in the case of regional road networks, as an indicative guide to location within New Zealand.</gco:CharacterString>
+      </gmd:abstract>
+      <gmd:purpose>
+        <gco:CharacterString>This source Landonline data exists in order to provide linear geometries against which official road names and street addresses can be recorded. Its purpose is also to enable automated meshblock address reports (for electoral and statistical purposes) so as to identify the presence of a road name in meshblocks where street addresses do not exist.</gco:CharacterString>
+      </gmd:purpose>
+      <gmd:status>
+        <gmd:MD_ProgressCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ProgressCode" codeListValue="onGoing">onGoing</gmd:MD_ProgressCode>
+      </gmd:status>
+      <gmd:pointOfContact>
+        <gmd:CI_ResponsibleParty>
+          <gmd:individualName>
+            <gco:CharacterString>Omit</gco:CharacterString>
+          </gmd:individualName>
+          <gmd:organisationName>
+            <gco:CharacterString>LINZ - Land Information New Zealand</gco:CharacterString>
+          </gmd:organisationName>
+          <gmd:positionName>
+            <gco:CharacterString>Data Manager - Addressing</gco:CharacterString>
+          </gmd:positionName>
+          <gmd:contactInfo>
+            <gmd:CI_Contact>
+              <gmd:phone>
+                <gmd:CI_Telephone>
+                  <gmd:voice>
+                    <gco:CharacterString>+64 4 460 0110</gco:CharacterString>
+                  </gmd:voice>
+                  <gmd:facsimile>
+                    <gco:CharacterString/>
+                  </gmd:facsimile>
+                </gmd:CI_Telephone>
+              </gmd:phone>
+              <gmd:address>
+                <gmd:CI_Address>
+                  <gmd:deliveryPoint>
+                    <gco:CharacterString>155 The Terrace</gco:CharacterString>
+                  </gmd:deliveryPoint>
+                  <gmd:city>
+                    <gco:CharacterString>Wellington</gco:CharacterString>
+                  </gmd:city>
+                  <gmd:administrativeArea>
+                    <gco:CharacterString/>
+                  </gmd:administrativeArea>
+                  <gmd:postalCode>
+                    <gco:CharacterString>6011</gco:CharacterString>
+                  </gmd:postalCode>
+                  <gmd:country>
+                    <gco:CharacterString>New Zealand</gco:CharacterString>
+                  </gmd:country>
+                  <gmd:electronicMailAddress>
+                    <gco:CharacterString>info@linz.govt.nz</gco:CharacterString>
+                  </gmd:electronicMailAddress>
+                </gmd:CI_Address>
+              </gmd:address>
+            </gmd:CI_Contact>
+          </gmd:contactInfo>
+          <gmd:role>
+            <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</gmd:CI_RoleCode>
+          </gmd:role>
+        </gmd:CI_ResponsibleParty>
+      </gmd:pointOfContact>
+      <gmd:resourceMaintenance>
+        <gmd:MD_MaintenanceInformation>
+          <gmd:maintenanceAndUpdateFrequency>
+            <gmd:MD_MaintenanceFrequencyCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="weekly">weekly</gmd:MD_MaintenanceFrequencyCode>
+          </gmd:maintenanceAndUpdateFrequency>
+        </gmd:MD_MaintenanceInformation>
+      </gmd:resourceMaintenance>
+      <gmd:resourceFormat>
+        <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>*.xml</gco:CharacterString>
+          </gmd:name>
+          <gmd:version>
+            <gco:CharacterString>Unknown</gco:CharacterString>
+          </gmd:version>
+        </gmd:MD_Format>
+      </gmd:resourceFormat>
+      <gmd:descriptiveKeywords>
+        <gmd:MD_Keywords>
+          <gmd:keyword>
+            <gco:CharacterString>New Zealand</gco:CharacterString>
+          </gmd:keyword>
+          <gmd:type>
+            <gmd:MD_KeywordTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</gmd:MD_KeywordTypeCode>
+          </gmd:type>
+          <gmd:thesaurusName>
+            <gmd:CI_Citation>
+              <gmd:title>
+                <gco:CharacterString>ANZLIC Jurisdictions</gco:CharacterString>
+              </gmd:title>
+              <gmd:date>
+                <gmd:CI_Date>
+                  <gmd:date>
+                    <gco:Date>2008-10-29</gco:Date>
+                  </gmd:date>
+                  <gmd:dateType>
+                    <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision</gmd:CI_DateTypeCode>
+                  </gmd:dateType>
+                </gmd:CI_Date>
+              </gmd:date>
+              <gmd:edition>
+                <gco:CharacterString>Version 2.1</gco:CharacterString>
+              </gmd:edition>
+              <gmd:editionDate>
+                <gco:Date>2008-10-29</gco:Date>
+              </gmd:editionDate>
+              <gmd:identifier>
+                <gmd:MD_Identifier>
+                  <gmd:code>
+                    <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-jurisdic.xml#anzlic-jurisdic</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:identifier>
+              <gmd:citedResponsibleParty>
+                <gmd:CI_ResponsibleParty>
+                  <gmd:organisationName>
+                    <gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+                  </gmd:organisationName>
+                  <gmd:role>
+                    <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                  </gmd:role>
+                </gmd:CI_ResponsibleParty>
+              </gmd:citedResponsibleParty>
+            </gmd:CI_Citation>
+          </gmd:thesaurusName>
+        </gmd:MD_Keywords>
+      </gmd:descriptiveKeywords>
+      <gmd:resourceConstraints>
+        <gmd:MD_SecurityConstraints>
+          <gmd:classification>
+            <gmd:MD_ClassificationCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+          </gmd:classification>
+        </gmd:MD_SecurityConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Crown copyright reserved</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:resourceConstraints>
+        <gmd:MD_LegalConstraints>
+          <gmd:useLimitation>
+            <gco:CharacterString>Released under Creative Commons Attribution 4.0 International with:
+
+Following Disclaimers:
+1. This data is made available through the LINZ Data Service and is based on information contained with Landonline (New Zealand's Official Title and Cadastral System)
+
+2. ##restrictions##
+
+
+Following Attribution:
+If you publish, distribute or otherwise disseminate this work to the public without adapting it, the following attribution to Land Information New Zealand should be used:
+         'CC BY 4.0 Land Information New Zealand’
+
+If you adapt this work in any way or include it in a collection, and publish, distribute or otherwise disseminate that adaptation or collection to the public, the following attribution to Land Information New Zealand should be used:
+        ‘Contains data sourced from the LINZ Data Service and licensed for reuse under CC BY 4.0.'
+
+If "attribution stacking" problems exist then the requirement to display the above attribution statements is waived and in lieu the attribution statement is to be made in any terms or conditions associated with the work/ product/ application/ etc.</gco:CharacterString>
+          </gmd:useLimitation>
+          <gmd:useConstraints>
+            <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+          </gmd:useConstraints>
+        </gmd:MD_LegalConstraints>
+      </gmd:resourceConstraints>
+      <gmd:spatialRepresentationType>
+        <gmd:MD_SpatialRepresentationTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</gmd:MD_SpatialRepresentationTypeCode>
+      </gmd:spatialRepresentationType>
+      <gmd:language>
+        <gco:CharacterString>eng</gco:CharacterString>
+      </gmd:language>
+      <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8">utf8</gmd:MD_CharacterSetCode>
+      </gmd:characterSet>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>planningCadastre</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>transportation</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicDescription>
+              <gmd:geographicIdentifier>
+                <gmd:MD_Identifier>
+                  <gmd:authority>
+                    <gmd:CI_Citation>
+                      <gmd:title>
+                        <gco:CharacterString>ANZMet Lite Country codelist</gco:CharacterString>
+                      </gmd:title>
+                      <gmd:date>
+                        <gmd:CI_Date>
+                          <gmd:date>
+                            <gco:Date>2009-03-31</gco:Date>
+                          </gmd:date>
+                          <gmd:dateType>
+                            <gmd:CI_DateTypeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</gmd:CI_DateTypeCode>
+                          </gmd:dateType>
+                        </gmd:CI_Date>
+                      </gmd:date>
+                      <gmd:edition>
+                        <gco:CharacterString>Version 1.0</gco:CharacterString>
+                      </gmd:edition>
+                      <gmd:editionDate>
+                        <gco:Date>2009-03-31</gco:Date>
+                      </gmd:editionDate>
+                      <gmd:identifier>
+                        <gmd:MD_Identifier>
+                          <gmd:code>
+                            <gco:CharacterString>http://asdd.ga.gov.au/asdd/profileinfo/anzlic-country.xml#Country</gco:CharacterString>
+                          </gmd:code>
+                        </gmd:MD_Identifier>
+                      </gmd:identifier>
+                      <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                          <gmd:organisationName>
+                            <gco:CharacterString>ANZLIC the Spatial Information Council</gco:CharacterString>
+                          </gmd:organisationName>
+                          <gmd:role>
+                            <gmd:CI_RoleCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</gmd:CI_RoleCode>
+                          </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                      </gmd:citedResponsibleParty>
+                    </gmd:CI_Citation>
+                  </gmd:authority>
+                  <gmd:code>
+                    <gco:CharacterString>nzl</gco:CharacterString>
+                  </gmd:code>
+                </gmd:MD_Identifier>
+              </gmd:geographicIdentifier>
+            </gmd:EX_GeographicDescription>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+      <gmd:extent>
+        <gmd:EX_Extent>
+          <gmd:geographicElement>
+            <gmd:EX_GeographicBoundingBox>
+              <gmd:westBoundLongitude>
+                <gco:Decimal>166.716158667</gco:Decimal>
+              </gmd:westBoundLongitude>
+              <gmd:eastBoundLongitude>
+                <gco:Decimal>-176.1888297</gco:Decimal>
+              </gmd:eastBoundLongitude>
+              <gmd:southBoundLatitude>
+                <gco:Decimal>-46.9117704333</gco:Decimal>
+              </gmd:southBoundLatitude>
+              <gmd:northBoundLatitude>
+                <gco:Decimal>-34.4291438</gco:Decimal>
+              </gmd:northBoundLatitude>
+            </gmd:EX_GeographicBoundingBox>
+          </gmd:geographicElement>
+        </gmd:EX_Extent>
+      </gmd:extent>
+    </gmd:MD_DataIdentification>
+  </gmd:identificationInfo>
+  <gmd:distributionInfo>
+    <gmd:MD_Distribution>
+      <gmd:transferOptions>
+        <gmd:MD_DigitalTransferOptions>
+          <gmd:onLine>
+            <gmd:CI_OnlineResource>
+              <gmd:linkage>
+                <gmd:URL>https://data.linz.govt.nz/layer/50818-nz-road-centre-line-electoral-deprecated/</gmd:URL>
+              </gmd:linkage>
+            </gmd:CI_OnlineResource>
+          </gmd:onLine>
+        </gmd:MD_DigitalTransferOptions>
+      </gmd:transferOptions>
+    </gmd:MD_Distribution>
+  </gmd:distributionInfo>
+  <gmd:dataQualityInfo>
+    <gmd:DQ_DataQuality>
+      <gmd:scope>
+        <gmd:DQ_Scope>
+          <gmd:level>
+            <gmd:MD_ScopeCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</gmd:MD_ScopeCode>
+          </gmd:level>
+          <gmd:levelDescription>
+            <gmd:MD_ScopeDescription>
+              <gmd:other>
+                <gco:CharacterString>dataset</gco:CharacterString>
+              </gmd:other>
+            </gmd:MD_ScopeDescription>
+          </gmd:levelDescription>
+        </gmd:DQ_Scope>
+      </gmd:scope>
+      <gmd:lineage>
+        <gmd:LI_Lineage>
+          <gmd:statement>
+            <gco:CharacterString>A formal process to record and continually maintain official road names in a national dataset was introduced in 1979 when the functions performed by the Electoral Office were split amongst various government agencies based on their areas of specialist expertise. Lands &amp; Survey was assigned the responsibility of creating and maintaining an Index to Places and Streets for NZ, and also to provide mapping to support electoral enrolment. A later requirement for common enrolment resulted in the transfer of meshblock mapping from Statistics New Zealand to Lands &amp; Survey so that the accuracy of meshblock mapping could be improved and so that meshblocks could be aligned to cadastrally defined property boundaries wherever practical.
+
+To achieve these responsibilities, the department created a textual database of streets and places, and compiled a set of electoral record maps on which the location of road names, street addresses and meshblocks were recorded. The data was collected as quickly as possible from a variety of sources. Most of the road name data came from survey records and was supplemented with additional names sourced from street maps, topographic maps, farm property maps, and Territorial Authorities. The information collected was later validated over time as part of the electoral enrolment process and consequential communication with the naming authorities.
+
+During this period the road corridors on the record sheets were usually sufficient to provide an indication of where a named road was in relation to meshblock and electoral boundaries. Whether the apparent corridor was legal road or not was of no concern to the electoral process, hence this information was never considered an indication of the presence of legal road, however later external users of the data often incorrectly make this assumption.
+
+Road centrelines did not technically exist at this point because it was a paper based mapping system, however sometimes a ‘line’ would be pecked in on the map to indicate the location of a road where the parcel boundaries provided no indication as to where the road might be. These were generally referred to as non-cadastral roads and were often misinterpreted by later users as 'unofficial' roads.
+
+Road centrelines were originally created independently of the above process, i.e. as part of the conversion of cadastral record maps into a Digital Cadastral Database (DCDB). Software routines were used to generate lines along the centre of the legal road corridors and then road names attributes were attached. The centrelines were created to enable the automated printing of road names along the centre of the road corridors on any map that contained part or all of the corridor. At this point only the road name was intended to be displayed. Street addresses were also transferred from the electoral record maps due to their value as a search key and also in anticipation of the electoral record maps being superceded by maps generated from DCDB.
+
+Once the nationwide capture of DCDB neared completion a decision was made to include all remaining electoral data from the electoral record maps, i.e. meshblocks, road names, and street addresses. In most cases the road and address information had already been captured.
+
+Most road centrelines in DCDB therefore commenced as centrelines for legal roads, and with the introduction of electoral requirements these slowly evolved into a mix of cadastral, legal, topographic and 'sketched' (where only the general location was known). Some centrelines were hybrids of all four, however many users continue to incorrectly assume that they are cadastral or legal road centrelines.
+
+With the conversion of DCDB to Landonline the distinction between data captured for electoral purposes and cadastral purposes was more clearly defined. In the original Landonline design, road names and street addresses were only required as contextual data so would not be maintained within Landonline. The intention was that they would be imported from another source, i.e. not necessarily from the data held in DCDB. A business case was however made for the inclusion of this ‘electoral’ data prior to the decommissioning of DCDB, hence road centrelines and addresses were eventually added to Landonline, but as electoral data to be maintained in an independent subsystem.
+
+This data was then also used as the source of the contextual data that was required by Landonline; however this usage results in many users assuming that the data is therefore cadastral, or even worse, is an authoritative definition of legal or formed access. It is none of these.
+
+The dataset source was changed to the LINZ Roads database system from 20 Nov 2016.</gco:CharacterString>
+          </gmd:statement>
+        </gmd:LI_Lineage>
+      </gmd:lineage>
+    </gmd:DQ_DataQuality>
+  </gmd:dataQualityInfo>
+  <gmd:metadataConstraints>
+    <gmd:MD_SecurityConstraints>
+      <gmd:classification>
+        <gmd:MD_ClassificationCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</gmd:MD_ClassificationCode>
+      </gmd:classification>
+    </gmd:MD_SecurityConstraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>Crown copyright reserved</gco:CharacterString>
+      </gmd:useLimitation>
+      <gmd:useConstraints>
+        <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</gmd:MD_RestrictionCode>
+      </gmd:useConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+  <gmd:metadataConstraints>
+    <gmd:MD_LegalConstraints>
+      <gmd:useLimitation>
+        <gco:CharacterString>Released under Creative Commons Attribution 4.0 International</gco:CharacterString>
+      </gmd:useLimitation>
+      <gmd:useConstraints>
+        <gmd:MD_RestrictionCode codeList="http://asdd.ga.gov.au/asdd/profileinfo/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</gmd:MD_RestrictionCode>
+      </gmd:useConstraints>
+    </gmd:MD_LegalConstraints>
+  </gmd:metadataConstraints>
+</gmd:MD_Metadata>
